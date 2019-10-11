@@ -9,7 +9,7 @@ Service for TEM telegram bot bukalapak (@bl_tem_bot)
 
 1. Clone repo
 ```
-git clone git@github.com:bukalapak/bl_tem_bot.git
+git clone git@github.com:ferieandriansujarwo/bl_tem_bot.git
 ```
 2. make `.env`
 ```
