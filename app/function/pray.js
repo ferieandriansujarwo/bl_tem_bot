@@ -40,13 +40,12 @@ async function getCurrentPray() {
   await Object.keys(pray)
     .map(i => {
       const prayTime = moment(`${date} ${pray[i]}`);
-      if (now.unix() > prayTime.unix()) {
+      if (now.unix() < prayTime.unix()) {
         current = i;
-
-        if (Object.keys(pray).indexOf(i) == Object.keys(pray).length - 1) {
+        if (Object.keys(pray).indexOf(i) == ((Object.keys(pray).length) - 1)) {
           minute = -1;
         } else {
-          const nextPrayHour = Object.keys(pray)[Object.keys(pray).indexOf(current) + 1];
+          const nextPrayHour = Object.keys(pray)[Object.keys(pray).indexOf(current)];
           const nextPrayTime = moment(`${date} ${pray[nextPrayHour]}`);
           minute = Math.round(nextPrayTime.diff(now, 'minutes', true));
         }

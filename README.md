@@ -1,5 +1,5 @@
 
-# BL TE Bot
+# BL TEM Bot
 Service for TEM telegram bot bukalapak (@bl_tem_bot)
 
 ## Prerequisites
