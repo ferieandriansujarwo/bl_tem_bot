@@ -41,6 +41,23 @@ const core = [
   persons.irfan.username,
 ];
 
+// TE Investment
+const inv = [
+  persons.fajar.username,
+  persons.fitri.username,
+  persons.faiq.username,
+  persons.yanti.username,
+];
+
+// TE PNL
+const pnl = [
+  persons.ananda.username,
+  persons.yudha.username,
+  persons.tusi.username,
+  persons.niken.username,
+  persons.iwan.username,
+];
+
 // All
 const all = [
   ...tem,
@@ -54,4 +71,6 @@ global.MEMBERS = {
   hte,
   arch,
   core,
+  inv,
+  pnl,
 };

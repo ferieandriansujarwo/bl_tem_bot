@@ -14,5 +14,13 @@
   "core": {
     "name": "core",
     "chat_id": -280206835
+  },
+  "tem_investment": {
+    "name": "tem_investment",
+    "chat_id": -372097186
+  },
+  "tem_pnl": {
+    "name": "tem_pnl",
+    "chat_id": -344895986
   }
 }
