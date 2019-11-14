@@ -15,6 +15,7 @@ const tem = [
   persons.genta.username,
   persons.mirza.username,
   persons.marlil.username,
+  persons.damar.username,
 ];
 
 // Head of Test Engineering
