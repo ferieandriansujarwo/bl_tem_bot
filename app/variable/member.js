@@ -34,7 +34,6 @@ const arch = [
 
 // TE Core
 const core = [
-  persons.aldo.username,
   persons.buddy.username,
   persons.fathir.username,
   persons.fadhli.username,
@@ -42,6 +41,9 @@ const core = [
   persons.rasyid.username,
   persons.sekar.username,
   persons.irfan.username,
+  persons.fajar.username,
+  persons.iwan.username,
+  persons.fera.username,
 ];
 
 // TE Investment
