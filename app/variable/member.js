@@ -43,7 +43,6 @@ const core = [
   persons.irfan.username,
   persons.fajar.username,
   persons.iwan.username,
-  persons.fera.username,
 ];
 
 // TE Investment
